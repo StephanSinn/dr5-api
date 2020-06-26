@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :articles
+  namespace :api do
+    namespace :v1 do
+      resources :articles
+      get 'search', to: 'articles#search'
+    end
+  end
   get 'endangered/index'
   get 'endangered/data', to: 'endangered#data'
   post 'endangered/upload', to: 'endangered#upload'
