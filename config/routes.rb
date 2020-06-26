@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   get 'endangered/index'
   get 'endangered/data', to: 'endangered#data'
   post 'endangered/upload', to: 'endangered#upload'

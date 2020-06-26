@@ -8,8 +8,9 @@ fi
  #yarn upgrade
  #yarn install --check-files
 #
+#bundle
 # bundle update
-# bundle install
+#bundle install
 
 
 bundle exec rails s -b 0.0.0.0
