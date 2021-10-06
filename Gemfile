@@ -38,7 +38,7 @@ gem 'rack-cors'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'sidekiq', '~>6.0.0'
+gem 'sidekiq', '~>6.2.1'
 gem 'pg', '~>1.1.3'
 
 group :development, :test do
